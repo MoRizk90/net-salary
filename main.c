@@ -17,7 +17,7 @@ int main()
     const int basicPayRate = 12.00;
     const float workingHrsPerWeek = 40.00;
     const float overTimeRate = 1.5;
-    const float firstTaxLayer = 300.00
+    const float firstTaxLayer = 300.00;
     const float firstFixedLayerTax = 300.00 * 0.15;
     const float seconedFixedLayerTax = 150.00 * 0.20;
     const float ThirdTax = 0.25;
@@ -41,12 +41,12 @@ int main()
         printf("Your over time hrs is : %.2f\n", workedOverTimer);
         basicRatePayment = workingHrsPerWeek * basicPayRate;
         overTimePayment = workedOverTimer * overTimeRate;
-        printf("Your over time payment is : $ %.2f\n", overTimePayment);
+        printf("Your over time payment is : $%.2f\n", overTimePayment);
 
 
     }
     grossPayment = basicRatePayment + overTimePayment;
-    printf("Your gross payment is : $ %.2f\n", grossPayment);
+    printf("Your gross payment is : $%.2f\n", grossPayment);
 
     if(grossPayment <= firstTaxLayer)
     {
@@ -72,7 +72,7 @@ int main()
         {
             netSalary = 0;
         }
-        printf("Your net payment is : $ %.2f\n", netSalary);
+        printf("Your net payment is : $%.2f\n", netSalary);
     }
 
     return 0;
