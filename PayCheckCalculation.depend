@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1565706201 source:e:\development_project\c\training\paycheckcalculation\main.c
+	<stdio.h>
+	<stdlib.h>
+
